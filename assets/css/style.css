@@ -1,0 +1,43 @@
+.img-load {
+	height: auto;
+}
+@media screen and (min-width: 50px) {
+	.img-load {
+		width: 100%;
+		padding: 5px 0px 0px 0px;
+	}
+}
+@media screen and (min-width: 200px) {
+	.img-load {
+		width: 30%;
+		padding: 5px 0px 0px 0px;
+	}
+}
+@media screen and (min-width: 400px) {
+	.img-load {
+		width: 30%;
+		padding: 5px 0px 0px 0px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.img-load {
+		width: 100%;
+		padding: 0px;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.img-load {
+		width: 100%;
+		padding: 0;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.img-load {
+		width: 100%;
+	}
+	.layout-menu {
+		z-index: 0 !important;
+	}
+}
